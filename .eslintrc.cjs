@@ -14,6 +14,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     semi: ["error", "always", { omitLastInOneLineBlock: false }],
     "comma-dangle": ["error", "never"],
     quotes: ["error", "single"],
